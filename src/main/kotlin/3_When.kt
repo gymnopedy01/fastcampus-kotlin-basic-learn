@@ -12,7 +12,7 @@ fun main() {
     }
     println(result)
 
-    // else를 생략할수 있다
+    // else 를 생략할수 있다
     when (getColor()) {
         Color.RED -> println("red")
         Color.GREEN -> println("green")
