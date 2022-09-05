@@ -1,9 +1,11 @@
 fun main() {
 
+//    컴파일오류 - NULL을 포함할수없음
 //    val a : String = null
 //    var b: String = "aabbcc"
 //    b = null
 
+//    NULL을 넣을려면? ?연산자가 필요
     var a: String? = null
     println(a?.length)
 
