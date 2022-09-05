@@ -6,9 +6,10 @@ fun main() {
 //    b = null
 
 //    NULL을 넣을려면? ?연산자가 필요
-    var a: String? = null
+    var a: String ?= null
     println(a?.length)
 
+//    삼항연산자가 없고 if 는 표현식이므로 아래처럼 표현이 가능함
     val b: Int = if (a != null) a.length else 0
     println(b)
 
