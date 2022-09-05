@@ -4,3 +4,7 @@
 
 https://fastcampus.co.kr/courses/211160/clips/
 
+
+
+# Gradle #Kotlin
+https://kotlinlang.org/docs/gradle.html
