@@ -16,7 +16,7 @@ open class Bulldog(override var age: Int = 0) : Dog() {
     }
 }
 
-// 기본적으로 상속받으면 open 이 되게됨, 상속을 못받게 하려면 final 해야함
+// 기본적으로 상속받으면 open 이 되게됨, 상속을 못받게 하려면 final 지정 해야함
 class ChildBulldog : Bulldog() {
     override var age: Int = 0
     override fun bark() {
